@@ -10,6 +10,11 @@ This script can be used to to clone and copy a wordpress site to another domain 
 
 Its use is very simple, you just need to go to the main folder of the wordpress installation and then run the following command:
 
+You should keep in mind that to execute this command:
+
+1. You must create the domain, subdomain or new folder, in your cpanel and keep in mind the paths where it will be installed.
+2. The domain must exist and be pointed to your cpanel as additional or subdomain.
+
 ```bash
 curl https://raw.githubusercontent.com/lfelipe1501/CloneWordpress/main/clonewp.sh | bash
 ```
