@@ -16,7 +16,7 @@ You should keep in mind that to execute this command:
 2. The domain must exist and be pointed to your cpanel as additional or subdomain.
 
 ```bash
-wget -q --show-progress https://raw.githubusercontent.com/lfelipe1501/CloneWordpress/main/clonewp.sh -O clonewp.sh && chmod +x clonewp.sh && bash clonewp.sh
+wget -qN --show-progress https://raw.githubusercontent.com/lfelipe1501/CloneWordpress/main/clonewp.sh && chmod +x clonewp.sh && bash clonewp.sh
 ```
 
 Then follow the steps indicated by the script to perform the cloning of the site, it is very simple, the script only asks for two things to perform the task.
