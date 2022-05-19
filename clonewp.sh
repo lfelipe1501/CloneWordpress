@@ -38,8 +38,8 @@ echo ""
 
 if ! command -v uapi &> /dev/null
 then
-    echo -e "You are on a $R Linux without cPanel$W \n$UY>> in order to use this script it must be executed on a linux with cpanel$W\n"
     rm -rf clonewp.sh
+    echo -e "You are on a $R Linux without cPanel$W \n$UY>> in order to use this script it must be executed on a linux with cpanel$W\n"
     exit 1
 else
 
@@ -168,8 +168,8 @@ rm -rf clonewp.sh
 echo -e "\nCleaning and deleting files and folders created by this script\n$UG>> everything is ready!....$W\n"
 
 else 
+    rm -rf clonewp.sh
     echo -e "\n$FILE does not exist."
     echo -e "REMEMBER: in order to use this script, you must place it inside the folder where the WordPress was installed\nFor example:$B /var/www/html/wordp$W or$B /home/user/public_html$W"
-    rm -rf clonewp.sh
     exit 1
 fi
