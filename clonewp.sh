@@ -31,6 +31,7 @@ db_name=$(sed -n "s/define( *'DB_NAME', *'\([^']*\)'.*/\1/p" $FILE)
 db_user=$(sed -n "s/define( *'DB_USER', *'\([^']*\)'.*/\1/p" $FILE)
 db_pass=$(sed -n "s/define( *'DB_PASSWORD', *'\([^']*\)'.*/\1/p" $FILE)
 
+echo ""
 echo -e "==================================\n$OB Wordpress Clone$W \n=================================="
 echo ""
 
