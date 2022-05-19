@@ -22,7 +22,7 @@ wget -qN --show-progress https://raw.githubusercontent.com/lfelipe1501/CloneWord
 Then follow the steps indicated by the script to perform the cloning of the site, it is very simple, the script only asks for two things to perform the task.
 
 a small example of how it works :sunglasses:
-![CloneWP](https://raw.githubusercontent.com/lfelipe1501/lfelipe-projects/master/clonewp.gif) <-- the capture will be coming soon 😅
+![CloneWP](https://raw.githubusercontent.com/lfelipe1501/lfelipe-projects/master/clonewp.gif)
 
 ### that's it
 
