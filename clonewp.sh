@@ -163,7 +163,7 @@ else
     }
     new_url_prompt
 fi
-
+rm -rf clonewp.sh
 echo -e "\nCleaning and deleting files and folders created by this script\n$UG>> everything is ready!....$W\n"
 
 else 
