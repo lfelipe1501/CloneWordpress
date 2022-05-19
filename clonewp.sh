@@ -49,6 +49,7 @@ else
         echo "Please indicate the new Directory..."
         read -p "$(echo -e "Complete Target Directory (e.g. without the last slash $OB"$apwd"/newSite2$W): \n> ")" target_directory
         NewLocation=${target_directory}
+        echo ""
         
         prompt_confirm
     }
@@ -93,6 +94,7 @@ else
         echo "Please indicate the new URL of WebSite..."
         read -p "$(echo -e "Complete Site URL (e.g. without the last slash$R https://newsite.com$W or$R https://site.com/wp2$W): \n> ")" target_directory
         new_URL="$target_directory"
+        echo ""
         
         prompt_confirm_url
     }
